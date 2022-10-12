@@ -1,0 +1,13 @@
+<html>
+<title>
+creation of table
+</title>
+<body>
+<h1 Student information table using rowspan and column span</h1>
+<table border="5" cellpadding="6" cellspacing="8">
+<thStudentName</th><thStudent ID</th><thStudent Perc</th>
+<tr><td>Renu</td><td>1257</td><td>80%</td></tr>
+<tr><td>Anil</td><td>1243</td><td>90%</td></tr>
+<tr><td>Lakshmi</td><td>1241</td><td>95%</td></tr>
+</table>
+</body>
