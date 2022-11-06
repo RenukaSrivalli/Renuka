@@ -1,5 +1,9 @@
 <html>
+<title>
+ongc data
+</title>
 <head>
+    </head>
     <style>
          button
     {
@@ -16,50 +20,52 @@
             color:blue;
         }
     </style>
-<script>
-function fun()
+    <script>
+        function fun()
+        {
+            var a=document.uname.fname.value;
+            var b=document.getElementById("n").value
+            if(a=="null"||a==" ")
+            {
+                alert("insert the data");
+                return false;
+            }
+            if(b<=0)
+            {
+                alert("insert positive distance");
+                return false;
+            }
+var cdate=new Date();
+var pre=new Date(document.getElementById("d").value);
+if(pre<cdate)
 {
-var a=document.uname.fname.value;
-if(a=="null" ||a=="" )
-{
-alert("insert the data");
+alert("Enter valid date");
 return false;
 }
-}
-</script>
-</head>
-<form name="uname" onsubmit="return fun()"> 
-<body >
+    
+            
+        }
+    </script>
+<body>
+
 <table>
-<tr><center><td><img src="C:\chrome images\ongc.png" height="100" width=80></td></center>
+    <form name="uname" onsubmit="return fun()" action="booked.png">
+<tr><center><td><img src="ongc.png" height="100" width=80></td></center>
 <td><center><font size="15"  face="helvetica" color="red"><h3 align="center">OIL AND NATURAL GAS CORPORATION</h3></font></center></td></tr>
 </table>
 <table border="3">
 <th>Contractor details</th><th>Vendor Code</th><th>Vehicle Number</th><th>Type Of Vehicle</th><th>Working Hours</th><th>Contract No</th><th>Period of Contact</th><th>Contract Start Date</th><th>Contract End Date</th><th>Station</th><th>Driver Details</th>
-<tr><td>M/s Hari Associates,  Rajahmundry , Cell:9182319596 , nagabathulasr@gmail.com </td><td> 850946</td><td>AP39Y2171</td><td>17+1 Seater AC Bus</td><td rowspan="2" align="center">24Hrs</td><td>9010029144</td><td>4 Years</td><td>16.07.2019</td><td>15.07.2023</td><td>Odalarevu</td><td >Durga Rao ,<br> 8179777572<br><hr>Rajasekhar ,<br>7337472107</td>
+<tr><td>M/S Ravi Teja,Civil and fabrication, Kanukollu , Cell:9440032143 ravitejacivilandfabrication@gmail.com</td><td align="center"> 831559</td><td align="center">AP39TU8223</td><td align="center">Ambulance (ACLS)</td><td align="center">24Hrs</td><td align="center">9010033638</td><td align="center">4 Years</td><td align="center">11.08.2021</td><td align="center">10.08.2025</td><td align="center">Odalarevu</td><td>Ramana ,<br>9849979987 <br><hr>P Hari ,<br>9494545290 </td>
 </table><br><br>
 <center>TRIP DETAILS
 <hr>
-
-
-
 <table>
 <th>Date </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th>Details</th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th>Km run</th>
-<tr ><td><input type="date"></td><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><td><input type="text" name="fname" ><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><td><input type="number" name ="lname"></td>
+<tr><td><input type="date" id="d" required></td><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><td><input type="text" name="fname" pattern="[a-zA-Z ]{3,}" required><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><th> </th><td><input type="number" id="n"></td>
 </table></center>
 <hr><br><br><br>
-<center><a href ="ongc Contractor1detailsext.html" ><button>submit</button></a></center>
+<center><a href ="success.html" ><button>submit</button></a></center>
 <a href="ongc regular1.html"><-Back</a>
 </form>
 </body>
 </html>
-
-
-
-
-
-
-
-
-                
-
