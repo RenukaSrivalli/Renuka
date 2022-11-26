@@ -1,0 +1,72 @@
+<html>
+    <head>
+<title>Calculator</title>
+    </head>
+    <style>
+ table{
+    background-color:white;
+    padding: 120px;
+    margin-top: 5px;
+    
+ }
+
+ h2{
+    background-color:crimson;
+    padding: 20px;
+    margin-bottom: 0px;
+  
+ }
+    </style>
+    <script>
+function fun()
+{
+    var a=parseInt(document.getElementById("num1").value);
+    var b=parseInt(document.getElementById("num2").value);
+    var symbol=document.getElementById("opt").value;
+    if(symbol=='+')
+    {
+        document.getElementById("res").value=a+b;
+    }
+    if(symbol=='-')
+    {
+        document.getElementById("res").value=a-b;
+    }
+    if(symbol=='*')
+    {
+        document.getElementById("res").value=a*b;
+    }
+    if(symbol=='/')
+    {
+        document.getElementById("res").value=a/b;
+    }
+    if(symbol=='%')
+    {
+        document.getElementById("res").value=a%b;
+    }
+}
+    </script>
+    <body>
+        <center>   
+            
+  <table   bordercolor= 'black'>
+  
+    <caption ><b><h2>Arithmetic Calculator</b></caption></h2></caption> 
+        <tr><td><b>Enter Number 1 </b>: <input type="text" placeholder="Enter a number" id="num1"></td></tr><br>
+        <tr><td><b>Enter Number 2 </b>: <input type="text" placeholder="Enter a number" id="num2"></td></tr><br>
+    <tr><td><label><b>Select Operand </b>: </label><select id="opt">
+            <option value="+">+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+            <option>%</option>
+        </select>
+    <button onclick="fun()">=</button></td></tr><br>
+<tr><td><b>The result is </b> :<input type="text" id="res"></td></tr><br>
+
+    
+</table>
+
+        </center>
+
+    </body>
+</html>
